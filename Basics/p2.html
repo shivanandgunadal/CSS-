@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-BASICS</title>
+    <style>
+        .combination{
+            background-color: grey;
+            colour: lightgray;
+            padding: 20px;
+            margin: 20px;
+        }
+        .combination > h5 +h5{
+            background-color: teal;
+ }
+
+ .combination + div > p{
+    background-color: tomato;
+ }
+    </style>
+
+<body>
+    <center>
+        <h1>There are 4 different combinations in css..!</h1>
+    </center>
+    <hr>
+
+    <ol>
+        <li>Descendent Selector (USING SPACE)</li>
+        <li>Child Selector (USING > SYMBOL)</li>
+        <li>Adjacent Sibling Selector (USING + SYMBOL)<li>
+        <li>General Sibling Sector (USING ~ SYMBOL)</li>
+    </ol>
+    <hr>
+
+    <h1>Descendent Selector (USING SPACE..!</h1>
+    <div class="combination">
+        <h3>First <H3> tag..! (Child Element for combination class)</H3>
+        <p>First Paragraph..!(Child Element for combination class)</p>
+
+
+<div>
+        <h3>First <H3> tag..! (Child Element for combination class)</h3>
+        <p>Second Paragraph..!(Child Element for combination class)</p>
+        </div>
+        <h3>First <H3> tag..! (Child Element for combination class)</h3>
+        <p>Third Paragraph..!(Child Element for combination class)</p>
+        </div>
+
+        <h3>First <H3> tag..! (Child Element for combination class)</H3>
+        <p>Fourth Paragraph..!(Child Element for combination class)</p>
+        </div>
+        <h3>First <H3> tag..! (Child Element for combination class)</H3>
+        <p>Fifth Paragraph..!(Child Element for combination class)</p>
+        </div>
+
+                    <h5>THIS IS FIRST H5..!</h5>
+                    <h5>THIS IS SECOND H5..!</h5>
+                    <h5>THIS IS THIRD H5..!</h5>
+                    <h5>THIS IS FOURTH H5..!</h5>
+
+
+
+                        
+            
+
+        
+    
+
+</body>
+</html>

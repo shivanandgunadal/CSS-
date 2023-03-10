@@ -1,0 +1,99 @@
+padding: 20px;
+margin: 20px;
+}
+/* p7.HTML PAGE */
+.JUMBOTRON{
+    background-color: #8e44ad;
+    border-radius: 10px;
+}
+.cssFont{
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    font-varient: small-caps;
+
+}
+.cssText{
+    /*text-align:left;
+    text-align:right;
+    text-align:center; */
+text-align:justify;
+line-height: 2;
+letter-spacing: 2px;
+word-spacing: 20px;
+/* text-decoration:underline; */
+text-decoration:line-through
+}
+.cssText>p{
+    text-indent: 100px;
+}
+.navbar{
+    background-color: gray;
+}
+.navBar>ul{
+    list-style-type: none;
+    padding: 0%;
+    margin:0%;
+}
+.navBar>ul>li{
+    display:inline block;
+}
+.navBar>ul>li{
+    display: inline-block;
+    padding: 20px;
+}
+.navBar>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.navBar>ul>li:hover a{
+    color: #808080;
+}
+.odd-even-table{
+    background-color: #009d34;
+}
+.odd-even-table, .odd-even-table th, .odd-even-table td[
+    /* border: 2px;
+    border-color: yellow;
+    border-style: dashed; */
+    border: 2px solid black;
+    padding: 20px;
+    border-collapse: collapse;
+}
+.odd-even-table th{
+    *
+    .odd-even-table tr:hover{
+        background-color: #009d34;
+
+    } 
+    .odd-even-table td{
+        height: 100px;
+        vertical-align: top;
+
+    }    
+    .layout-table{
+        width: 10%;
+        height: 10px;
+        table-layout: fixed;
+    }
+    
+.banner>h1, .banner2>h1{
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+}
+.banner1>h1:hover, .banner2>h1:hover{
+    color: gray;
+}
+.common-banner{
+    height: 400px;
+    padding: 30px;
+}
+.banner2{
+    background-image: url(../image/banner1.jpg);
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: cover;
+}
+

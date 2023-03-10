@@ -1,0 +1,249 @@
+.title{
+    background-color: rgb(255,187,52);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.titleh1{
+    color: #fff;
+    font-size: 20px;
+}
+/* .CSS VISIBILITY AND CSS DISPLAY */
+cp{
+    background-color: teal;
+    padding: 20px;
+    border: 5px solid red;
+}
+.cssVisibilityDisplay>.cssVisisbility{
+    visibility: hidden;
+}
+.cssVisibilityDisplay>.cssDisplay{
+    display: none;
+}
+/* CSS WORD-WRAP */
+.cssWordWrap, cssResize, cssOffsetOutline, cssColumncount{
+    background-color: #ddd
+    padding: 30px;
+    margin: 30px;
+}
+.cssWordWrap>p{
+    background-color: #808080;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    word-wrap: break-word;
+}
+/* CSS RESIZE */
+.cssResize{
+    resize: both;
+    overflow: auto;
+}
+/* CSS OFFSET-OUTLINE */
+.cssoffsetOutline{
+    border: 2px solid red;
+    border-radius: 10px;
+    outline: 5px solid black;
+    outline-offset: 10px;
+}
+/* CSS COLUMN COUNT */
+.cssColumncount{
+    text-align: justify;
+    line-height: 2;
+    /* column-count: 4; */
+    column-gap: 50px;
+    column-rule: 2px solid red;
+    column-width: 300px;
+}
+/* CSS OPACITY */
+.cssOpacity>p{
+    background-color: teal;
+    color: #fff;
+    padding: 20px;
+    opacity: 0.2;
+}
+.cssOpacity>div{
+    background-color: rgba(255, 99, 71, 0.5);
+    color: rgba(255, 255, 255 0.5);
+    padding: 20px;
+}
+/* CSS ATTRIBUTES */
+.cssAttribute>h1{
+    color: brown;
+
+
+}
+.cssAttribute>p{
+    color: #808080;
+}
+.cssAttribute>h1[title]{
+    color: #fff;
+
+}
+.cssAttribute>[title]{
+    font-style: italic;
+}
+.cssAttribute>[title]{
+    background-color: cornflowerblue;
+}
+.cssAttribute>p>[title]{
+    columns: yellow;
+    background-color: red;
+}
+.cssAttribute>form>[type]{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 20px;
+}
+.cssAttribute>form>[type="submit"]{
+    background-color: lightskyblue;
+    border: 2px solid red;
+}
+/* CSS PSEUDO-CLASSES */
+.cssPseudoClass>h:hover{
+    color: #808080;
+
+}
+.cssPseudoClass>a:link{
+color: #fff;
+}
+.cssPseudoClass>a:hover{
+    color: rgb(177, 177, 54);
+}
+.cssPseudoClass>a:active{
+    color: green;
+}
+.cssPseudoClass>a:visited{
+    color: red;
+}
+/* CSS PSEUDO-ELEMENT */
+.cssPsuedoElement>selection:first-child::first-line, .cssPsuedoelement>section:nth-child(2)::first-letter{
+    background-color: red;
+    color: #fff;
+}
+.cssPsuedoElement>section:nth-child(2)::first-letter{
+font-size: 30px;
+font-weight: bold;
+}
+.cssPsuedoElement>section:last-child>h1::before{
+    content: "BEFORE H1 -";
+    background-color: red;
+    color: yellow;
+}
+.cssPsuedoElement>section:last-child>h1::after{
+content: "- AFTER H1";
+background-color: yellow;
+color: red;
+}
+/* CSS POSITION */
+.cssPosition>h1:nth-child(1){
+    background-color: teal;
+}
+.cssPosition>h1:nth-child(2){
+    background-color: tomato;
+}
+.cssPosition>h1:nth-child(3){
+    background-color: violet;
+}
+.cssPosition h1{
+    padding: 20px;
+}
+.cssPosition>.second{
+    position: absolute;
+    /* left: 100px; */
+    top: 0%;
+    left: 0%;
+
+}
+.cssPosition>div>h1:nth-child(1){
+    background-color: teal;
+}
+.cssPosition>div>h1:nth-child(2){
+    background-color: tomato;
+}
+.cssPosition>div>h1:nth-child(3){
+background-color: violet;
+}
+.cssPosition>div{
+    border: 2px solid #000;
+}
+.cssPosition>div>.fifth{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.cssPosition>.seven{
+    background-color: blue;
+}
+.cssPosition>.eight{
+    background-color: crimson;
+    position: sticky;
+    top: 0%;
+}
+.cssPosition>.nine{
+    background-color: chartreuse;
+    position: fixed;
+    top: 45%;
+    right: 0%;
+    border-radius: 5px;
+    transition: 1s;
+}
+.cssPosition>.nine:hover{
+    right: 2%;
+}
+/* CSS Z-INDEX */
+.zIndex{
+    background-color: cadetblue;
+    padding: 50px;
+    margin: 30px;
+    outline: 3px solid darkcyan;
+    position: relative;
+    height: 300px;
+}
+.zIndex>section{
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    color: #fff;
+    position: absolute;
+}
+.zIndex>.first{
+    background-color: darkgoldenrod;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+.zIndex>.second{
+    background-color: darkgreen;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+.zIndex>.third{
+    background-color: darkmagenta;
+    top: 100px;
+    left: 100px;
+    z-index: 3;
+}
+.zIndex>.first:hover{
+    z-index: 4;
+}
+.zIndex>.second:hover{
+    z-index: 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

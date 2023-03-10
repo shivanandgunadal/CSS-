@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    /*background-color: black;
+    */height: 80%;
+    width: 80%;
+    margin: 10px;
+   
+   
+}
+.box{
+    background-color: white;
+    text-align: center;
+    line-height: 60px;
+    margin-left: 600px;
+    border: 2px solid black;
+    margin: -0%;
+margin: 0px 10px;
+   
+}
+h2{
+    background-color: black;
+    color: white;
+    border-radius: 2px solid black;
+   
+}
+h2:hover{
+    background-color: brown;
+}
+a{
+    text-decoration: none;
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 4px;
+}
+a:hover{
+    background-color: blue;
+    color: white;
+    margin: 4px; 
+}
+.Shivanand{
+    display: flex;
+    background-color: black;
+}
+h1{
+    text-align: center;
+    background-color: black;
+    padding: 6px;
+    color: white;
+    border: 2px solid black;
+}
+h3{
+    background-color: green;
+    border-radius: 2px solid black;
+  
+}
+h3:hover{
+    background-color: black;
+    color: white;
+}
+h1:hover{
+    background-color: green;
+}
